@@ -1,0 +1,35 @@
+.InfoHalf {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 12px;
+    z-index: 200;
+    padding: 80px 0;
+}
+
+.InfoHalf img {
+    width: 48%;
+    border-radius: 5px;
+    margin: 4px;
+    z-index: 200;
+    position: relative;
+    box-shadow: 0 0 20px 2px rgb(255, 255, 255, 0.3);
+}
+
+.InfoHalf div {
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 812px) {
+    .InfoHalf {
+        /* display: block; */
+        margin: 0 auto;
+        width: 100%;
+        vertical-align:auto;
+        display: block;
+    }
+    .InfoHalf img {
+        text-align: center;
+        width: 90%;
+    }
+}

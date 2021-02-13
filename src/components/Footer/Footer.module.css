@@ -1,0 +1,47 @@
+footer {
+    background-color: #151515;
+    padding: 20px 0 10px 0;
+}
+
+.FooterElement {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 30px;
+    padding: 0;
+    max-width:34%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.FooterElement a {
+    text-decoration: none none none none;
+    text-decoration-line: none;
+    color: #0389ff;
+    font-weight: 700;
+}
+
+.FooterElement p {
+    margin: 0;
+}
+
+.InnerContainer {
+    color: white;
+    display: inline-block;
+}
+
+@media screen and (max-width: 812px) {
+    .FooterElement p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .FooterElement {
+        display: block;
+        padding: 20px 0;
+        /* margin: 0 auto; */
+        max-width: 80%;
+    }
+    .InnerContainer {
+        display: block;
+    }
+}

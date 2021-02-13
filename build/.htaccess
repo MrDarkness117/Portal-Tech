@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://portal-tech.ru/$1 [R=410,L]

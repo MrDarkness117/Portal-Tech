@@ -1,0 +1,14 @@
+.Text {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    margin: 5px;
+    word-break: break-word;
+    text-align: justify;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    z-index: 200;
+    text-shadow: black 1px 0 10px;
+    /* display: table; */
+}

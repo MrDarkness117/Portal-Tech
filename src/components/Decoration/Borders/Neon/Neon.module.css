@@ -1,0 +1,15 @@
+.Neon {
+    position: absolute;
+    height: auto;
+    width: auto;
+    border-radius: 0;
+    background-color: transparent;
+    z-index: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 812px) {
+    .Neon {
+        display: none;
+    }
+}

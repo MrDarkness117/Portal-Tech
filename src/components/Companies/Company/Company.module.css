@@ -1,0 +1,47 @@
+.Company {
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    border-top: none;
+    width: 33%;
+    vertical-align: top;
+    position: relative;
+    /* float: left; */
+    /* margin: 0 2px; */
+    min-height: 400px;
+    z-index: 200;
+    box-shadow: black 0px 0px 20px 2px;
+    padding-bottom: 20px;
+}
+
+.Company:nth-last-child(even) {
+    background-color: rgb(240, 240, 255);
+}
+
+.Company img {
+    /* text-align: center; */
+    width: 66%;
+    padding: 50px 0;
+}
+
+.Company p {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.Company h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 812px) {
+    .Company {
+        display: block;
+        /* text-align: center; */
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .Company h1 {
+        margin-top: 90px;
+    }
+}

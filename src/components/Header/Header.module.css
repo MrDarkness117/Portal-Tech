@@ -1,0 +1,44 @@
+.Navlist ul {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.Navlist li {
+    display: inline-block;
+    margin: 0 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.Navlist a {
+    cursor: pointer;
+}
+
+.Navlist {
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.Header {
+    background: #151515;
+    width: 100%;
+}
+
+.Container {
+    display: inline-block;
+}
+
+.LogoSk {
+    max-width: 80px;
+}
+
+@media screen and (max-width: 475px) {
+    .Navlist li {
+        margin: 0 10px;
+    }
+}
