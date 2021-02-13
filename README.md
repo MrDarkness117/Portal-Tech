@@ -1,9 +1,15 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Info
 
 Visit the official Portal Tech website: https://portal-tech.ru \
 The source code is free to use and is mostly needed as a reference for my portfolio.
+
+This project runs on React.js \
+If you wish to learn how to run this project, please see the info below:
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
