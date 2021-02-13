@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Visit the official Portal Tech website: https://portal-tech.ru
+Visit the official Portal Tech website: https://portal-tech.ru \
 The source code is free to use and is mostly needed as a reference for my portfolio.
 
 ## Available Scripts
