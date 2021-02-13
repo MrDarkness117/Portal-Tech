@@ -12,11 +12,6 @@
 /build
 
 # misc
-certificate.txt
-certificate-intermediate.txt
-certificate-key.txt
-certificate-request.txt
-certificate-root.txt
 .DS_Store
 .env.local
 .env.development.local
